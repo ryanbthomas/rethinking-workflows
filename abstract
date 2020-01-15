@@ -1,0 +1,15 @@
+RstudioConf 2020 BoF Lighting Talk
+Rethinking Actuarial Workflows
+
+Spreadsheets have dominated actuarial workflows since personal computers 
+became ubiquitous in the 1980s. Many actuarial analyses are have become synonymous 
+with the spreadsheet templates in which are implemented, with the workflows and ways
+of working of many practitioners having evolved little since that time.
+
+This talk will present a re-imagining of a common actuarial analysis, the estimate 
+of an unpaid loss reserves, implemented using an Rmarkdown/git/drake workflow. 
+This example will be used to highlight common spreadsheet workflow pain points 
+and explain how the suggested workflow not only mitigates these issues but also provides a
+natural way to begin the process of transitioning a traditional analysis to 
+incorporate modern techniques that are impossible in a spreadsheet (e.g. Machine Learning).
+

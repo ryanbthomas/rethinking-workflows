@@ -1,0 +1,33 @@
+Overall plan for talk "Rethinking Actuarial Workflows"
+
+1. Introduction
+	a. Who am I?
+	b. Why am I here?
+	c. Funny Funny ha ha
+2. Main Points
+	a. I used to love spreadsheets
+	    i. Easy to throw some data together and do some work
+	    ii. Always available
+	    iii. You *can* do anything
+	    iiib. but you probably shouldn't
+	b. The problem with spreadsheets
+	    i. Single files
+	    ii. Reproducibility Problems
+	    iii. Maintainence of macros is (shudder)
+	    iv. Changes/errors hard to identify
+	    v. Brittle
+	c. A better way? Rmarkdown/git/drake
+	    i. Project Template
+	    ii. Rmarkdown
+	    iii. git
+	    iv. Drake
+	d. An Example
+
+3. How to learn more
+	a. kasa.ai
+	b. github
+	c. twitter
+	d. this presentation
+	e. example repo
+
+
