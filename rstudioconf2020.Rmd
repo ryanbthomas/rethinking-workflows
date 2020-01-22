@@ -14,7 +14,7 @@ output:
 ---
 # About Me
 
-### Who am I?
+### Wh am I?
 
 ### Why am I here?
 
@@ -145,6 +145,82 @@ no ability to track changes
 VBA Code editor is ... feature def
 
 
+---
+
+## The Problem with Spreadsheets
+
+### Maintainence, Updates, and Validation Problems
+
+Difficult to find errors and changes in spreadsheet formula as well as VBA logic
+
+---
+
+## The Problem with Spreadsheets
+
+### Maintainence, Updates, and Validation Problems
+
+brittle to changes
+---
+class: inverse, center, middle
+
+# Is there a better way?
+
+---
+
+## Is there a better way?
+
+### What do we want?
+
+* Ability to multiple people to maintain/edit/update simultaneously
+
+* separation of concerns
+
+* reproducible
+
+* elastic to changes
+
+* **source control**
+
+* consistent starting place (like the template)
+
+---
+
+## Is there a better way?
+
+### A way to get there.
+
+* Project Template
+* Rmarkdown
+* git
+* Drake
+
+---
+class: center, inverse, middle
+
+# Demo
+
+---
+
+## If you'd like to work on this project with me
+
+* [kasa.ai](https://kasa.ai)
+
+* [github.com/actuarialvoodoo](https://github.com/actuarialvoodoo)
+
+* @ryebreadnyc on twitter
+
+* this presentation <- link
+
+* example repo <- link
+
+---
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
 
 ---
 ## The Problem with Spreadsheets
@@ -156,30 +232,3 @@ VBA Code editor is ... feature def
 attribution: https://www.fatherly.com/play/activities/rube-goldberg-machines-joseph-herscher/ 
 
 [id]: images/rube_goldberg.jpeg "Actuarial Workflow"
----
-
-
-
-## The Problem with Spreadsheets
-
-### Opacity
-
-* Logic and orchestration embedded in macros is often opaque and difficult to maintain.
-* Changes/errors may be difficult to spot because the model and view are on top of each other.
-
----
-
-## The Problem with Spreadsheets
-
-### Fragility
-
-Once created, spreadsheet based workflows are often brittle to changes in methodology or implementation
-
----
-class: center, middle
-
-# Thanks!
-
-Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
-
-The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
