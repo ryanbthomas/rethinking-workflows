@@ -10,18 +10,43 @@ Overall plan for talk "Rethinking Actuarial Workflows"
 	    ii. Always available
 	    iii. You *can* do anything
 	    iiib. but you probably shouldn't
+	    --> Empathy <--
 	b. The problem with spreadsheets
 	    i. Single files
+	        * can't be edited by multiple people simulateously
+	        * agglomeration of concerns
+	            - database
+	            - algorithm/model 1
+	            - algorithm/model N
+	            - view
 	    ii. Reproducibility Problems
-	    iii. Maintainence of macros is (shudder)
-	    iv. Changes/errors hard to identify
-	    v. Brittle
-	c. A better way? Rmarkdown/git/drake
-	    i. Project Template
-	    ii. Rmarkdown
-	    iii. git
-	    iv. Drake
+	        * Two types of reproducibility 
+	            - same input + same model -> same results
+	            - new input + same model -> analogous results
+	        * Updating an analysis can be frought (steps recorded in multiple locations)
+	        * Can be hard to analyze what needs to be changed in inherited spreadsheet
+	        * "well understood" update procedures results in the "template"
+	    iii. Maintainence, Updates, and Validation
+	        * no ability to track changes
+	        * VBA Code editor is ... feature deficient
+	        * Difficult to find errors and changes spreadsheet formula
+	        * as well as VBA logic
+	        * brittle to changes
+	c. A better way?
+	    i. What do we want?
+	        * ability for multiple people to maintain/edit/update simultaneously
+	        * separation of concerns
+	        * reproducible
+	        * elastic to changes
+	        * source control
+	        * consistent starting place (like the template)
+	    ii. A way to get there
+	        * Project Template
+	        * Rmarkdown
+	        * git
+	        * Drake
 	d. An Example
+	    
 
 3. How to learn more
 	a. kasa.ai
