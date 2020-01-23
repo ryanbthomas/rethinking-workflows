@@ -1,0 +1,40 @@
+.agg-parent {
+    position: relative;
+}
+
+.agg-child-responsive {
+    width: 50%;
+    height: auto;
+}
+
+.agg-child-1 {
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    z-index: 1;
+    border: 1px solid #999;
+}
+
+.agg-child-2 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    z-index: 2;
+    border: 1px solid #999;
+}
+
+.agg-child-3 {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    z-index: 3;
+    border: 1px solid #999;
+}
+
+.agg-child-4 {
+    position: absolute;
+    top: 0px;
+    left: 370px;
+    z-index: 4;
+    border: 1px solid #999;
+}

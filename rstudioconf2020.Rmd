@@ -5,6 +5,7 @@ institute: "rstudio::conf 2020"
 date: "2020-01-30"
 output:
   xaringan::moon_reader:
+    css: [rladies, "custom.css"]
     chakra: libs/remark-latest.min.js
     lib_dir: libs
     nature:
@@ -14,14 +15,6 @@ output:
 ---
 # About Me
 
-### Wh am I?
-
-### Why am I here?
-
-### What's a bird's favorite holiday?
-
---
-Feather's Day
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -59,7 +52,9 @@ an analysis application.
 ### Single File Problems
 
 Can't be edited/fully accessed by multiple people simultaneously
- 
+
+
+![Cookie Waiting](images/single_files/cookie_monster_waiting.gif) 
 ---
 
 ## The Problem with Spreadsheets
@@ -68,6 +63,27 @@ Can't be edited/fully accessed by multiple people simultaneously
 
 The agglomeration of concerns
 
+<div class="agg-parent">
+  <img src="images/single_files/database.png" class="agg-child-responsive">
+
+--
+
+  <img src="images/single_files/algorithm-1.jpeg" width="50%" class="agg-child-1">
+
+--
+
+  <img src="images/single_files/algorithm-2.jpeg" width="30%" class="agg-child-2">
+
+--
+
+  <img src="images/single_files/algorithm-n.jpeg" width="30%" class="agg-child-3">
+
+--
+
+  <img src="images/single_files/visualization.jpeg" width="50%" class="agg-child-4">
+</div>
+
+???
 - database
 
 - algorithm/model 1
@@ -103,7 +119,10 @@ The agglomeration of concerns
 ### Reproducibilty Problems
 
 Repeating (or Updating) an analysis can be challenging because the steps of
-analysis might be encodeded several different ways (even in the same analysis)
+analysis might be encodeded several different ways (even in the same analysis) 
+and may involve manual steps.
+
+???
 
 * spreadsheet formula
 * macro 
@@ -203,15 +222,11 @@ class: center, inverse, middle
 
 ## If you'd like to work on this project with me
 
-* [kasa.ai](https://kasa.ai)
+Kasa AI: [https://kasa.ai](https://kasa.ai)
 
-* [github.com/actuarialvoodoo](https://github.com/actuarialvoodoo)
+Slides: https://ryanthomasr.com/talks/rethinking-actuarialworkflows
 
-* @ryebreadnyc on twitter
-
-* this presentation <- link
-
-* example repo <- link
+Example repo: https://github.com/actuarialvoodoo/reproducible-reserving
 
 ---
 class: center, middle
